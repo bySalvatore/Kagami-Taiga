@@ -10,7 +10,7 @@ Patches are always welcome! Please submit your patches via LineageOS Gerrit. You
 (Go to repo you are patching, make your changes and commit)
 cmgerrit <for(new)/changes(patch set)> <branch/change-id>
 
-repo start cm-14.1 .
+repo start master .
 (Make your changes and commit)
 repo upload .
 Note: "." means the current directory For more help on using this tool, use this command: repo help upload
@@ -25,7 +25,7 @@ To get started with Android/LineageOS, you'll need to get familiar with Git and 
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+repo init -u git://github.com/Kagami-Taiga/android.git -b master
 Then to sync up:
 
 repo sync
@@ -35,6 +35,5 @@ Buildbot
 
 All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
 
-You can view the current build statuses at LineageOS Jenkins
+You can view the current build statuses at Kagami-Taiga Jenkins
 
-Builds produced weekly by the buildbot can be dow
